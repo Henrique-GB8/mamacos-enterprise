@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    
+    position: relative;
+    
+}
+.img-topo{
+    width: 100%;
+    height: 100vh;
+    
+}
+.text-top{
+    position: absolute;
+    top:0%;
+    left:57rem;
+    width: 51%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+}
+.text-top h1{
+    position: relative;
+    margin-top: 20rem;
+    margin-left: 4rem;
+    color: #e0f01c;
+    font-size: 5.5rem;
+    text-shadow: 0.3rem .4rem 2px rgba(0, 0, 0, .9) ;
+}
+.text-top h2{
+    position: relative;
+    margin-top: .5rem;
+    margin-left: 5rem;
+    color: #fdfef1;
+    font-size: 1.5rem;
+    text-shadow: 0.3rem .4rem 2px rgba(0, 0, 0, .6) ;
+}
+.sessao-equipe{
+    background-color: black;
+    z-index: 1;
+}
+.titulo{
+    display: table;
+    align-items: center;
+    margin-left: 50rem;
+
+}
+.titulo h1{
+    color: #e0f01c;
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+    border-bottom: solid 2px #d2d2d2;
+}
+.titulo h2{
+    color: #d2d2d2;
+    padding-top: 2rem;
+    
+}
+.equipe-card{
+    display: flex;
+    justify-content:space-evenly;  
+}
+.header-equip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    width: 30rem;
+    height: 40rem;
+    position: relative;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2.5rem;
+    background-color: black;
+}
+.card-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 2.3rem;
+    opacity: 8;
+} 
+.card-img #makako{
+    object-position: .1rem;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 2.3rem;
+    opacity: 8;
+} 
+.card-info{
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, .8);
+    visibility: hidden;
+    transition:  .2s;
+    opacity: 0;
+}
+.card-info h2{
+color:#cfdc30 ;
+font-size: 2rem;
+text-shadow: .2rem .2rem rgba(0, 0, 0, 1);
+padding-top: 1.4rem;
+}
+.card-info h3{
+    color: #d2d2d2;
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+}
+.card-info p{
+    color: #d2d2d2;
+    padding-top: 1.5rem;
+    font-size: 1.3rem;
+    
+}
+.button{
+    font-size: 1.2rem;
+    border-radius: 3px;
+    padding: .2rem .4rem;
+    margin: 2rem 9rem;
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    cursor: pointer;
+    box-shadow: .2rem .2rem rgba(0, 0, 0, .3);   
+}
+.text-top #topo{
+    margin-left: 5rem;
+}
+.button:hover{
+    transition: 1s;
+    opacity: .7;
+}
+
+.card:hover .card-info {
+    opacity: 1;
+    visibility: visible;
+}
+.sessao-projetos{
+    
+    background-color: black;  
+}
+.card-projeto{
+    flex-flow: column nowrap;
+}
+.img-projeto{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    height: 28rem;
+    width: 55rem;
+    border-radius: 2.5rem;
+    background-color: red;
+}
+.img-projeto img{
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+.info-projeto{
+    color:#d2d2d2;
+}
+.info-projeto h2{
+    
+}
